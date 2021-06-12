@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="dividerhHeight">2dp</dimen>
-    <dimen name="LianxiHeight">1dp</dimen>
-    <dimen name="GridHeight">10dp</dimen>
-
-</resources>
