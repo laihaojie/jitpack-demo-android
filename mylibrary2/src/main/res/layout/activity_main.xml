@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <!--    <include layout="@layout/title" />-->
+
+        <com.example.shengqi.TitleLayout
+            android:id="@+id/main_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:id="@+id/t_1"/>
+
+
+
+        <TextView
+            android:id="@+id/t_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="哈哈哈" />
+
+        <TextView
+            android:id="@+id/btn_lll"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="略略略"
+            android:textColor="#fff"
+            android:background="@drawable/mao"/>
+
+
+        <TextView
+            android:id="@+id/btn_list"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#000"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="32dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_lm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="LaunchMode"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/btn_video"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Video"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_vp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="ViewPage"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/btn_wc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="WeChat"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/btn_rm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Room"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_ev"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Eventbus"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_bn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Banner"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_rh"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Refresh"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_rx"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Rxjava"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_fl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="File"
+            android:textColor="#fff"
+            android:textSize="32dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/btn_wb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="WebView"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_re"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Recyclerview"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_lx"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Lianxi"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+
+            />
+        <TextView
+            android:id="@+id/btn_gr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Grid"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_fr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Fragment"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_bd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="BroadCast"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/btn_th"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Thread"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/btn_se"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Service"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/btn_dl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ccc"
+            android:gravity="center"
+            android:text="Download"
+            android:textColor="#fff"
+            android:textSize="32sp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
