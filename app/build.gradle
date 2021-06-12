@@ -33,7 +33,6 @@ android {
 
 allprojects {
     repositories {
-        mavenCentral()
         google()
         jcenter()
         maven { url "https://jitpack.io" }
@@ -50,7 +49,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.laihaojie'
-                artifactId = 'shengqi'
+                artifactId = 'android-shengqi'
                 version = '1.0'
             }
         }
@@ -58,7 +57,7 @@ afterEvaluate {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.12'
@@ -68,43 +67,4 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
     implementation 'com.github.bumptech.glide:glide:4.12.0'
 
-
-    //完整版引入視頻
-    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer:v8.1.3-jitpack'
-
-
-
-    // tabbar
-    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
-    implementation 'com.nineoldandroids:library:2.4.0'
-    implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.2@aar'
-    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:1.5.0@aar'
-
-
-    //各种带边框按钮 各种小布局组件
-    implementation 'com.ruffian.library:RWidgetHelper-AndroidX:0.0.9'
-
-    // 弹窗
-    implementation 'com.lxj:xpopup:2.2.23'
-
-
-    implementation 'io.reactivex.rxjava2:rxjava:2.0.0-RC5'
-    implementation 'io.reactivex.rxjava2:rxandroid:2.0.0-RC1'
-    implementation "org.reactivestreams:reactive-streams:1.0.2"
-    //下拉刷新
-    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-1'
-
-    implementation 'com.jakewharton:butterknife:10.1.0'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
-
-    //banner
-    implementation 'com.youth.banner:banner:2.1.0'
-
-    implementation 'org.greenrobot:eventbus:3.1.1' //订阅总线
-
-    def room_version = "2.2.2"
-
-    implementation "androidx.room:room-runtime:$room_version"
-
-    annotationProcessor "androidx.room:room-compiler:$room_version"
 }
